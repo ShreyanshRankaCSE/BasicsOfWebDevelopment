@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+    width: 100wh;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header{
+    height: 15%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.textarea{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 60%;
+    width: 60%;
+}
+.search{
+    background-color: springgreen;
+    height: 40%;
+    width: 40%;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+.searchbox{
+    align-items: flex-start;
+}
+#btn:hover {
+    color: yellow;
+    width: 100px;
+    height: 100px;
+  }
+
+.footer{
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items:center ;
+    background-color:seagreen;
+}

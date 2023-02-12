@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(89, 217, 226);
+
+}
+div{
+    background-color: white;
+    font: 1em sans-serif;
+   
+}
+h1{
+    color:darkgreen;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: italic;
+}
+h2{
+    color: #000;
+    border: 2px solid seagreen;
+    padding: 50px;
+    animation-delay: 100ms;
+}

@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+th{
+    background-color: green;
+}
+td{
+    background-color: rgb(33, 255, 92);
+    text-align: center;
+}

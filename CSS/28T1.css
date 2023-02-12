@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(109, 112, 115);
+}
+
+.container{
+    background-color: white;
+    height: 200px;
+    margin-left:355px;
+    width: 233px;
+}
+.img-container{
+    height: 100%;
+    width: 100%;
+    border: 2px dashed black;
+    margin-left:0px;
+    border-radius: 10px;
+    border-image: 50px;
+    padding: auto;
+    text-align: center;
+    border-image: 50px;
+}
+.img-desc{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+}
+img{
+    border-image: round; 
+    border-radius: 10px;
+}

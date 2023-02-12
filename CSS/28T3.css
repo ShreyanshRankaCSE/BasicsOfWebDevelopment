@@ -1,0 +1,30 @@
+body{
+    background-color: green;
+}
+.container{
+    height: 360px;
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    height: 60%;
+    font-size:medium;
+}   
+.session{
+    height: 20%;
+    font-size: smaller;
+}
+.button{
+    height: 10%;
+    width:100%
+}
+.SSO{
+    height: 10%;
+    font-size: smaller;
+    text-align: center;
+}

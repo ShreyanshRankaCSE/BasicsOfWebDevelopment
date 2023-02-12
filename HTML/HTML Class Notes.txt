@@ -1,0 +1,71 @@
+18 Jan
+
+In a Website, HTML is the structure, CSS is the style and Javascript is the Functionality.
+
+HTML: HyperText Markup Language: It's a markup language used to describe the structure of a webpage.
+CSS: Cascading Style Sheet 
+<!DOCTYPE html>: This is the first statement which is going to be there on an  HTML page, It tells the web browser what type of document it is, in our case it is HTML5
+<html></html>: Root Element Because it's the parent of the other HTML elements & the content of a page. It also tells the web browser where the HTML code starts and ends.
+<head></head>: This is the container for processing information and meta data for an HTML Document, basically contain the information about website. For eg. Meta tags , etc
+<title></title>: Tells the browser what the page title is. The title can be seen by identifying the tab in your browser.
+<body></body>: This is a container for the displayable content of an HTML document
+<p></p>: Creates a Paragraph
+<br>: Empty Tag: Closing is not required.
+
+<a></a>: Amchor Tag created a hyperlink to redirects users to another webpage
+Target Attribute: Tells the browser how to actually open the link, if we select "target = _blank": When someone clicks on the link, it will open up in a new tab. 
+https://www.w3schools.com/tags/att_a_target.aspx
+
+HyperText vs HyperLink: Hypertext simply is a data on which we clicks, it is going to redirect us to some other location,
+						Hyperlink is a link to some other resource
+						
+Comments: These are ignnored by the browser engine.
+<img> tag: It's an Empty Tag(no closing tag is present), Used for adding a image into the HTML Webpage but it has some attributes (src, alt)
+
+src: Defines the source
+alt: Basically displays the alternative text,displayed only when the image can't be rendered.
+
+19 Jan
+
+Inline Elements & Block Elements
+Inline Elements: never start from a new line & only cover the width acc. to size of content in the HTML element
+Eg. <a>, <img>
+Block Elements: Begin from a new line by default & cover space to its left & right as far as it can go.
+Eg. <h>, <p>
+
+Lists :
+1. Ordered Lists <ol> It is used to group a set of objects in a specific order. This list is created with <ol> Tag. Each list item is surrounded with <li> tag
+2. Unordered Lists <ul> It is used to group a set of items in no particular order. Created with <ul> tag. Each list is surrounded with <li> tag.
+3. Descriptive Lists: It is used to specify a lit of Terms & their descriptions. It is created with <dl> tag & surrounded with <dt> and <dd> tags.
+
+1. Ordered List Nested Version
+21 Jan
+
+Portfolio HTML: Image,
+				Name, 
+				Designation(Italic), 
+				Paragraph(Self- Intro), 
+				Horizontal Line, 
+				Achievements, 
+				Create another HTML Page, Hobbies (Link Page)
+				Create another HTML Page, Contact me (Link Page)
+
+Table:  Presenting/Displaying large amount of structured data
+		It's a representation of data arranged in erows and columns
+		<table> is the main container of the table. Shows the Starting & Ending Point of Table
+		<tr>: Represents Rows
+		<td>: Creates Data Cells
+		<th>: Gives Table Heading
+		<caption>: Give descriptions about a table.
+		<thead>: 
+		
+		CellPadding: It is used to specify the space between the cell content and 
+		CellSpacing: Spacing between two cells
+		Rowspan: Used to merge 2 or more rows 
+		Colspan: Used to merge 2 or more columns
+		
+Forms:
+Input Element: It's used to create a field where User can type some information. For eg.: E-Mail, Passowrd, Name, etc. It's a self closing tag, Inline Element
+type: It indicates what type of input we want. Eg: Text, Password, Email,etc.
+placeholder: 
+		

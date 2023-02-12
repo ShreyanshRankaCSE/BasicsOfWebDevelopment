@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: darkgray;
+   align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-container{
+  margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img-desc{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 5px solid black;
+    box-shadow: 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border-image: fill;
+}
+img{
+    border-radius: 50%;
+    
+}
