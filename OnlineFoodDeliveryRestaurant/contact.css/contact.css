@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.contanier{
+    height: 600vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+.header{
+    height: 50%;
+    width: 100%;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(18, 17, 17);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 40px;
+    font-size: 1.4rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+a:hover{
+    color: #d5a086;
+}
+.bg-img{
+    height: 40%;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-bottom: 2px solid ;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 3rem;
+    padding-left: 40px;
+    font-family: 'Cinzel' , serif;
+}
+.head span{
+    letter-spacing: 8px;
+    font-size: 30px;
+}
+.topnav {
+    font-size: 24px;
+    padding-top: 25px;
+}
+.topnav a{
+    margin: 15px;
+}
+.topnav a:hover{
+    color: #e0936c;
+}
+.main{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading p{
+    font-family: 'Lora';
+    font-size: 25px;
+    color:#de9a78 ;
+    padding-bottom: 10px;
+    width: 10%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+p span{
+    background:#fff; 
+    padding:0 10px;
+}
+.heading h3{
+    text-decoration-line: underline overline;
+    font-family: 'Cinzel';
+    font-size: xx-large;
+    font-weight: 100;
+}
+.boxes{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 18rem;
+    width: 31%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border: 1px solid rgba(127,127,127,.25);
+}
+.box1 p{
+    font-family: 'Cinzel';
+    font-size: xx-large;
+    font-weight: 100;
+}
+.box1 a{
+    font-size: 1rem;
+    color: rgb(180, 177, 177);
+}
+.box1 a:hover{
+    color: #de9a78;
+}
+.box2{
+    height: 18rem;
+    width: 31%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border: 1px solid rgba(127,127,127,.25);
+}
+.box2 p{
+    font-family: 'Cinzel';
+    font-size: xx-large;
+    font-weight: 100;
+}
+.box2 a{
+    font-size: 1rem;
+    color: rgb(180, 177, 177);
+}
+.box2 a:hover{
+    color: #de9a78;
+}
+.box3{
+    height: 18rem;
+    width: 31%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border: 1px solid rgba(127,127,127,.25);
+}
+.box3 p{
+    font-family: 'Cinzel';
+    font-size: xx-large;
+    font-weight: 100;
+}
+.box3 li{
+    font-size: 1rem;
+    color: rgb(180, 177, 177);
+    padding-top: 5px;
+}
+.contact-form{
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-form p{
+    font-family: 'Lora';
+    font-size: 25px;
+    color:#de9a78 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.contact-form p span{
+    background:#fff; 
+    padding:0 10px;
+}
+.contact-form h3{
+    text-decoration-line: underline overline;
+    line-height: 1rem;
+    font-family: 'Cinzel';
+    font-size: xx-large;
+    font-weight: 100;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+form{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+label{
+    font-size: 20px;  
+    font-family:'Cinzel' ;
+    font-weight: 200;
+}
+.text{
+    margin-left: 3rem;
+    /* margin-right: 3rem; */
+}
+input[type=text]{
+    font-size: 34px;
+}
+.for{
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+}
+.for .input{
+    width: 1352px;
+    height: 250px;
+}
+.captch{
+    height: 15%;
+    width: 15%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+    margin-top: 12px;
+    margin-right: 1020px;
+}
+.captch img{
+    height: 25px;
+    width: 25px;
+    margin-left: 12px;
+}
+.message{
+    background-color: black;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    border: none;
+}
+.message:hover{
+    background-color: #e0936c;
+
+}
+footer{
+    height: 50rem;
+    width: 100%;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.contact{
+    color: white;
+}
+.contact p{
+    line-height: 1.6rem;
+    font-size: 20px;
+}
+.contact li{
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+
+.contact h2{
+    font-family: 'Cinzel';
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.follow{
+    color: white;
+    padding-bottom: 45px;
+}
+.follow h2{
+    font-family: 'Cinzel';
+    padding-bottom: 30px;
+}
+.follow p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+.follow a{
+    font-size: 30px;
+    padding: 12px;
+}
+.petent{
+    height: 2rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
