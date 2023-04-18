@@ -1,0 +1,33 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100wh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#change{
+    height: auto;
+    width: 85px;
+    text-align: center;
+    margin-top: 2%;
+    border: 2px black solid;
+    cursor: pointer;
+    color: black;
+    background-color: tomato; 
+}
+#change1{
+    height: auto;
+    width: 85px;
+    text-align: center;
+    margin-top: 2%;
+    border: 2px black solid;
+    cursor: pointer;
+    color: black;
+    background-color: tomato; 
+}

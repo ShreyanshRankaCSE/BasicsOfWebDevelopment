@@ -66,7 +66,7 @@ console.log(myObject);
 var name = 'SR';
 function ABC(){
     var fname='Shreyansh';
-    console.log(fname)
+    console.log(fname);
 }
 
 console.log(name);
@@ -128,8 +128,12 @@ console.log(!(x<5));
 let num1= 36;
 ( num1 % 2 == 0 ? console.log("No. is Even") : console.log("No. is odd"))  
 
-// Template literals are literals delimited with backtick ( ` ) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates.
-// String Interpolation  String interpolation is replacing placeholders with values in a string literal. The string interpolation in JavaScript is performed by template literals (strings wrapped in backticks ` ) and ${expression} as a placeholder
+// Template literals are literals delimited with backtick ( ` ) characters, allowing for multi-line strings,
+// string interpolation with embedded expressions, and special constructs called tagged templates.
+
+// String Interpolation  String interpolation is replacing placeholders with values in a string literal. 
+//The string interpolation in JavaScript is performed by template literals (strings wrapped in backticks ` ) 
+//and ${expression} as a placeholder
 
 let myFName = "Shreyansh";
 let myLName = "Ranka";

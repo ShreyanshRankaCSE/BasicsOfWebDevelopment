@@ -1,0 +1,231 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%; height: 11vh;
+}
+nav{
+  width: 100%; height: 11vh;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  font-family: "Josefin sans";
+  display: flex; justify-content: space-between;
+  align-items: center; text-transform: uppercase;
+}
+nav .logo{
+  width: 35%; text-align: center; height: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .logo h1{
+    background: linear-gradient(to right , #f47037 , white , #48b00b); 
+}
+nav .logo img{
+  /* padding-top: 5px; */
+  height: 40px;
+  width: 100px;
+}
+nav .menu{
+  width: 10%; font-weight: bold;
+  display: flex; justify-content: space-evenly;
+  padding-right: 130px;
+}
+nav .menu a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  margin: 12px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 80%;
+}
+nav .menu a:hover{
+  color: blue;
+}
+nav .menu a:first-child{
+  color: blue;
+}
+
+
+.container{
+    width: 100%;
+    height: 863px;
+}
+
+.part1{
+    height: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../IMAGES/unexplored_banner.jpg);
+}
+.logo{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    margin-top: 70px;
+    margin-left: 350px;
+    height: 120px;
+    width: 550px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ /* .intro :hover{
+  background-color: #285a99;
+  color: white;
+  cursor: pointer;
+ } */
+ .intro:hover{
+  background-color: gold;
+  color: white;
+  cursor: pointer;
+ }
+ /* .intro .h1 :hover{
+  background-color: #285a99;
+  color: blueviolet;
+  cursor: pointer;
+ } */
+
+/* }
+.box{
+    height: 120px;
+    width: 550px;
+    color: black;
+    border-radius: 5px;
+    background: rgb(255 255 255 / 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.items{
+    height:400px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: blue;
+}
+.lMost{
+    height: 10%;
+    width:20%;
+    font-size: 21px;
+    text-align: center;
+    background-color: rgba(248, 211, 23, 0.98);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.places{
+    height: 100%;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    height: 90%;
+    width: 30%;
+    background-color: white;
+    font-size: large;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1%;
+    align-items: center;
+}
+.p1 .image  img{
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+}
+footer{
+    padding: 25px 0 20px;
+} 
+
+footer .container1{
+    height: 65vh; width: 100%;
+    background-image: url(../images/footerImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer .contentOrg{
+    background-color: rgba(27, 43, 109, 0.74);
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    padding-top: 40px;
+  }
+  footer .content1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+  }
+  footer .contentOrg h4{
+    padding-bottom: 18px;
+    color: #fdb714;
+    font-size: 22px;
+  }
+  footer li{
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: 100;
+  }
+  footer li a:hover{
+    color: #fdb714;
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  .thrdline p{
+    line-height: 32px;
+    font-size: 18px;
+  }
+  .thrdline p .fa{
+    color: #fdb714;
+  }
+  .frtline .btn1{
+    padding-bottom: 12px;
+  }
+  .copyright{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 130px 0 130px;
+  }
+  .downmrgin{
+    width: 37%;
+  }
